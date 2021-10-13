@@ -101,7 +101,7 @@ function keyPressed(){
         slingshot.attach(bird.body);
     }
 }
-async function getBackground(){
+/*async function getBackground(){
     var response = await fetch ("http://worldtimeapi.org/api/timezone/Asia/Tokyo")
     var responseJSON = await response.json();
     var datetime = responseJSON.datetime 
@@ -113,4 +113,4 @@ else {
     bg = "sprites/bg2.jpg";
 }
 backgroundImg = loadImage(bg)
-}
+}*/
